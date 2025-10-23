@@ -1,1 +1,12 @@
 <!-- ST -->
+
+<!-- templates/notices.html -->
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Notice Board</h2>
+    <ul>
+        {% for notice in Notice.query.order_by(Notice.date_posted.desc()).all() %}
+            <li>{{ notice.content }} (Posted: {{ notice.date_posted }})</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

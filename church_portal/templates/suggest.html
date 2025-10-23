@@ -1,1 +1,12 @@
-#kelvin
+<!-- ST -->
+
+<!-- templates/suggest.html -->
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Suggestion Box</h2>
+    <p>Submit your suggestions or feedback.</p>
+    <form method="post">
+        <textarea name="content" placeholder="Your suggestion..." required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}

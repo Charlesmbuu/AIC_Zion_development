@@ -1,1 +1,13 @@
 <!-- ST -->
+
+<!-- templates/donate.html -->
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Donate</h2>
+    <p>Contribute to church projects via M-Pesa.</p>
+    <form method="post">
+        <input type="number" name="amount" placeholder="Amount (KES)" required>
+        <input type="text" name="phone" placeholder="Phone (2547xxxxxxxx)" required>
+        <button type="submit">Donate</button>
+    </form>
+{% endblock %}

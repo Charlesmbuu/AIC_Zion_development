@@ -1,1 +1,11 @@
-#kelvin
+<!----Kelvin-----!>
+<!-- templates/sermons.html -->
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Sermons</h2>
+    <ul>
+        {% for sermon in Sermon.query.order_by(Sermon.date.desc()).all() %}
+            <li><strong>{{ sermon.title }}</strong>: {{ sermon.content }} (Date: {{ sermon.date }})</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

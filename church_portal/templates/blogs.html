@@ -1,1 +1,11 @@
 <!-- ST -->
+<!-- templates/blogs.html -->
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Blogs and News</h2>
+    <ul>
+        {% for blog in Blog.query.order_by(Blog.date_posted.desc()).all() %}
+            <li><strong>{{ blog.title }}</strong> by {{ blog.author }}: {{ blog.content }} (Posted: {{ blog.date_posted }})</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

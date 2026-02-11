@@ -9,9 +9,7 @@ Built with **Next.js, Supabase, and Vercel**, this platform enables sermon publi
 
 ## 🚀 Live Demo
 
-🔗 https://your-vercel-link.vercel.app  
-*(TO Replace with deployed URL once complete!)*
-
+🔗 https://vercel.com/charlesmbuus-projects/aic_zion/5rCoHA2CtAUdkp5rDwy9QLZAWRki
 ---
 
 ## 📌 Project Vision

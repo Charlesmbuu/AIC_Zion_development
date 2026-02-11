@@ -100,14 +100,6 @@ This project is designed to scale from MVP to a fully-featured church ecosystem.
 
 ---
 
-git clone https://github.com/yourusername/aic-zambezi.git
-cd aic-zambezi
-
----
-
-## 🚀 Deployment
-
----
 
 ## 🎨 Design System
 

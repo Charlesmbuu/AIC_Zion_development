@@ -102,3 +102,65 @@ This project is designed to scale from MVP to a fully-featured church ecosystem.
 
 git clone https://github.com/yourusername/aic-zambezi.git
 cd aic-zambezi
+
+---
+
+## 🚀 Deployment
+
+---
+
+## 🎨 Design System
+
+### Theme Colors (AIC Inspired)
+
+  - Red: #C8102E
+  
+  - Gold: #FFD700
+  
+  - White: #FFFFFF
+  
+  - Dark Accent: #111111
+
+
+---
+
+## 🔒 Security
+
+- Supabase Row-Level Security enabled
+
+- Environment variables secured
+
+- HTTPS via Vercel
+
+- Auth-protected admin routes
+
+---
+
+## 📈 Future Roadmap
+
+- Member authentication dashboard
+
+- Prayer request system
+
+- Newsletter integration
+
+- SMS notifications
+
+- Advanced donation analytics
+
+- Media upload system (beyond YouTube embeds)
+
+---
+
+## 🤝 Contributors
+
+- Charles Mburu – Project Lead / Frontend
+
+- Kelvin Thairu – Backend / Systems
+
+---
+
+## 📜 License
+MIT License
+
+---
